@@ -1,12 +1,7 @@
 'use client'
 import Link from 'next/link';
 import * as React from 'react';
-import {
-  PasswordInput,
-  TextInput,
-  TextAreaInput,
-  SelectInput,
-} from 'react-secure-input';
+import { TextInput, PasswordInput, TextAreaInput, SelectInput } from 'react-secure-input';
 import UsefulTextInput from './components/usefulTextInput';
 import UsefulPropsPasswordInput from './components/usefulPropsPassword';
 import UsefulTextAreaInput from './components/usefulTextAreaInputProps';
